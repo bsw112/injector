@@ -1,9 +1,12 @@
-package com.manta.injector
+package com.manta.injector.registry
 
+import com.manta.injector.*
 import com.manta.injector.InjectorPlatformTools.safeHashMap
+import com.manta.injector.context.InstanceContext
 import com.manta.injector.instance.InstanceFactory
 import com.manta.injector.instance.ScopedInstanceFactory
 import com.manta.injector.instance.SingleInstanceFactory
+import com.manta.injector.qualifier.Qualifier
 import kotlin.reflect.KClass
 
 // 인스턴스 생성, 찾기 담당

@@ -1,4 +1,4 @@
-package com.manta.injector
+package com.manta.injector.qualifier
 
 interface Qualifier {
     val value: QualifierValue

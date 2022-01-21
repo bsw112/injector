@@ -1,6 +1,7 @@
 package com.manta.injector.instance
 
 import com.manta.injector.*
+import com.manta.injector.context.InstanceContext
 
 class ScopedInstanceFactory<T>(beanDefinition: BeanDefinition<T>) :
     InstanceFactory<T>(beanDefinition) {

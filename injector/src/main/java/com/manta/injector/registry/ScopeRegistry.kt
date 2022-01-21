@@ -1,6 +1,12 @@
-package com.manta.injector
+package com.manta.injector.registry
 
+import com.manta.injector.Injector
 import com.manta.injector.InjectorPlatformTools.safeHashMap
+import com.manta.injector.Module
+import com.manta.injector.Scope
+import com.manta.injector.ScopeID
+import com.manta.injector.qualifier.Qualifier
+import com.manta.injector.qualifier._q
 
 class ScopeRegistry(val _injector: Injector) {
 

@@ -1,5 +1,6 @@
 package com.manta.injector
 
+import com.manta.injector.qualifier.Qualifier
 import kotlin.reflect.KClass
 
 typealias IndexKey = String

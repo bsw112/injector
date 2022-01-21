@@ -2,6 +2,7 @@ package com.manta.injector
 
 import com.manta.injector.instance.InstanceFactory
 import com.manta.injector.instance.ScopedInstanceFactory
+import com.manta.injector.qualifier.Qualifier
 
 class ScopeDSL (val scopeQualifier: Qualifier, val module : Module){
 

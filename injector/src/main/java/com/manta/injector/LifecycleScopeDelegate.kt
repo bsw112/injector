@@ -4,6 +4,8 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.OnLifecycleEvent
+import com.manta.injector.context.GlobalContext
+import com.manta.injector.context.InjectorContext
 import kotlin.properties.ReadOnlyProperty
 import kotlin.reflect.KProperty
 

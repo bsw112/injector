@@ -1,7 +1,7 @@
 package com.manta.injector.instance
 
 import com.manta.injector.BeanDefinition
-import com.manta.injector.InstanceContext
+import com.manta.injector.context.InstanceContext
 import com.manta.injector.Scope
 import com.manta.injector.emptyParametersHolder
 

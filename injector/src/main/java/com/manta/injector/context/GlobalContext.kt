@@ -1,5 +1,7 @@
-package com.manta.injector
+package com.manta.injector.context
 
+import com.manta.injector.Injector
+import com.manta.injector.InjectorApplication
 import com.manta.injector.dsl.InjectorAppDeclaration
 
 object GlobalContext : InjectorContext {

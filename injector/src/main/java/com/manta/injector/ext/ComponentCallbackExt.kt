@@ -2,7 +2,7 @@ package com.manta.injector.ext
 
 import android.content.ComponentCallbacks
 import com.manta.injector.ParametersDefinition
-import com.manta.injector.Qualifier
+import com.manta.injector.qualifier.Qualifier
 
 inline fun <reified T : Any> ComponentCallbacks.inject(
     qualifier: Qualifier? = null,

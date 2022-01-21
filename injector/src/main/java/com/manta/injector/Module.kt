@@ -1,9 +1,11 @@
 package com.manta.injector
 
-import com.manta.injector.ScopeRegistry.Companion.rootScopeQualifier
+import com.manta.injector.registry.ScopeRegistry.Companion.rootScopeQualifier
 import com.manta.injector.instance.FactoryInstanceFactory
 import com.manta.injector.instance.InstanceFactory
 import com.manta.injector.instance.SingleInstanceFactory
+import com.manta.injector.qualifier.Qualifier
+import com.manta.injector.qualifier.TypeQualifier
 
 // 주입할 인스턴스들을 구성하는 역할
 class Module {

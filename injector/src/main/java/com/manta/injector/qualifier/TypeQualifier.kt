@@ -1,5 +1,6 @@
-package com.manta.injector
+package com.manta.injector.qualifier
 
+import com.manta.injector.getFullName
 import kotlin.reflect.KClass
 
 class TypeQualifier(val type : KClass<*>) : Qualifier {

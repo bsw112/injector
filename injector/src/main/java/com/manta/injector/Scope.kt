@@ -1,5 +1,7 @@
 package com.manta.injector
 
+import com.manta.injector.context.InstanceContext
+import com.manta.injector.qualifier.Qualifier
 import kotlin.reflect.KClass
 
 typealias ScopeID = String

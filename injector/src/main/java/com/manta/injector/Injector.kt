@@ -1,5 +1,9 @@
 package com.manta.injector
 
+import com.manta.injector.qualifier.Qualifier
+import com.manta.injector.registry.InstanceRegistry
+import com.manta.injector.registry.ScopeRegistry
+
 class Injector {
 
     val instanceRegistry = InstanceRegistry(this)
